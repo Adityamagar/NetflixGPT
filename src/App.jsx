@@ -1,10 +1,10 @@
-
 import './App.css'
+import Body from './components/Body'
 
 function App() {
 
   return (
-    <h1 className='p-4 bg-amber-400'>aditya</h1>
+    <Body />    
   )
 }
 

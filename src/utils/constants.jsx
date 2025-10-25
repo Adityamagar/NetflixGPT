@@ -6,3 +6,12 @@ export const NETFLIX_BG_IMAGE =
 
 export const USER_ICON =
   "https://static0.anpoimages.com/wordpress/wp-content/uploads/2022/04/netflix.jpg?w=1600&h=900&fit=crop";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOGRhZjJhOWE4NGQ5YTA4ZGM0OWZlNmRmYzM3NDlkNyIsIm5iZiI6MTc2MTQxODk1My4wOTksInN1YiI6IjY4ZmQxZWM5YzY3MjhkNWZmYzkyNmRlMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.BaxwRSNQMtDgHT1fSauTCK0bHt37gnS_mLzr6T59jbE",
+  },
+};

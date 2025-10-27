@@ -18,6 +18,11 @@
 - Bug fix: if the user is not logged in then redirect /browse to login page and vice a versa
 - Unsubscibe to onAuthStateChange Callback
 - In react as strict mode api is called twice only while developing mode locally becoz react does extra rendering of comp to check for inconsistence between the calls and it does not happen in production.
+- Registered TMDB api & create an app & get access token
+- get data from TMDB now playing movie list api
+- custom hook for now playing, top rated, upcoming, popular movies
+- fetch and update store for trailer video
+- build movies list and card
 
 # Features
 
